@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Simplilearn" duration-ms="11066" started-at="2021-10-28T06:56:43 UTC" finished-at="2021-10-28T06:56:54 UTC">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11066" started-at="2021-10-28T06:56:43 UTC" finished-at="2021-10-28T06:56:54 UTC">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:test.LoginTest@51e2adc7]" name="ReportSetup" is-config="true" duration-ms="151" started-at="2021-10-28T06:56:43 UTC" finished-at="2021-10-28T06:56:43 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@51e2adc7]" name="setup" is-config="true" duration-ms="1623" started-at="2021-10-28T06:56:43 UTC" finished-at="2021-10-28T06:56:44 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="NegativeLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@51e2adc7]" name="NegativeLogin" duration-ms="3763" started-at="2021-10-28T06:56:44 UTC" finished-at="2021-10-28T06:56:48 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@15dfd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@51e2adc7]" name="teardown" is-config="true" duration-ms="76" started-at="2021-10-28T06:56:48 UTC" finished-at="2021-10-28T06:56:48 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@51e2adc7]" name="setup" is-config="true" duration-ms="1408" started-at="2021-10-28T06:56:48 UTC" finished-at="2021-10-28T06:56:50 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PositiveLogin(java.lang.String,java.lang.String)[pri:0, instance:test.LoginTest@51e2adc7]" name="PositiveLogin" duration-ms="3612" started-at="2021-10-28T06:56:50 UTC" finished-at="2021-10-28T06:56:53 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pass@15dfd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.LoginTest@51e2adc7]" name="teardown" is-config="true" duration-ms="76" started-at="2021-10-28T06:56:53 UTC" finished-at="2021-10-28T06:56:53 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="ReportTearDown()[pri:0, instance:test.LoginTest@51e2adc7]" name="ReportTearDown" is-config="true" duration-ms="324" started-at="2021-10-28T06:56:53 UTC" finished-at="2021-10-28T06:56:54 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportTearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Simplilearn -->
+</testng-results>
